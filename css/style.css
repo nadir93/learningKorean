@@ -1,0 +1,172 @@
+@font-face {
+    font-family: ng;
+    src: url(NanumGothic.eot);
+    src: local(※), url(./font/NanumGothic.woff) format(‘woff’)
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    background: #ffcc00;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.4em;
+    padding: 3em;
+    font-family: '나눔고딕', 'NanumGothic', ng
+}
+
+h1 {
+    font-size: 1000%;
+}
+
+p {
+    font-size: 100%;
+    text-align: right;
+    color: white;
+}
+
+.grid {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.list {
+    height: 652px;
+    position: relative;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card {
+    transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    perspective: 1000;
+    -ms-transform: perspective(1000px);
+    -moz-transform: perspective(1000px);
+    -ms-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    float: left;
+    width: 222px;
+    height: 311px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 30px 0 15px 15px;
+    text-align: center;
+    line-height: 115px;
+}
+
+.front, .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    display: block;
+}
+
+.front, .back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.back img {
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+.front img {
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+.front {
+    background-color: #eee;
+}
+
+.back {
+    background-color: #eee;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.card:hover .front {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.card:hover .back {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+}
+
+.card.flipped:hover .front {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+}
+
+.card.flipped:hover .back {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.card.flipped .front {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.card.flipped .back {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+}
+
+.card:nth-child(5n) {
+    margin-right: 0;
+}
+
+.card.ani0 {
+    right: 948px;
+    bottom: 326px;
+}
+
+.card.ani1 {
+    right: 711px;
+    bottom: 326px;
+}
+
+.card.ani2 {
+    right: 474px;
+    bottom: 326px;
+}
+
+.card.ani3 {
+    right: 237px;
+    bottom: 326px;
+}
+
+.card.ani4 {
+    right: 0;
+    bottom: 326px;
+}
+
+.card.ani5 {
+    right: 948px;
+    bottom: 0;
+}
+
+.card.ani6 {
+    right: 711px;
+    bottom: 0;
+}
+
+.card.ani7 {
+    right: 474px;
+    bottom: 0;
+}
+
+.card.ani8 {
+    right: 237px;
+    bottom: 0;
+}

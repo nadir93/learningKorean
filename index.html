@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>한글배우기</title>
+    <script src="./js/modernizr.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="grid" class="grid">
+        <ul class="list">
+        </ul>
+        <p> made for 세린
+    </div>
+    <!-- Insert this line above script imports  -->
+    <script>
+        if (typeof module === 'object') {
+            window.module = module;
+            module = undefined;
+        }
+    </script>
+    <script src='./js/jquery.min.js'></script>
+    <!-- Insert this line after script imports -->
+    <script>
+        if (window.module) module = window.module;
+    </script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
