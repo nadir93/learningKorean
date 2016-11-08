@@ -10,6 +10,12 @@
 
 [node.js](https://nodejs.org/en/)
 
+### dependency
+
+electron : 1.4.5
+
+underscore : 1.8.3
+
 ### install
 
 ```
