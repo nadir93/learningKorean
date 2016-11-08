@@ -42,4 +42,4 @@ l : shuffle cards
 
 ### customize image
 
-
+data/default.json
