@@ -1,5 +1,7 @@
 # learningKorean
 
+![learningKorean](https://raw.githubusercontent.com/nadir93/learningKorean/master/images/learningkorean.png)
+
 ### description
 
 *플래시카드를 이용한 한글 낱글자 배우기*
