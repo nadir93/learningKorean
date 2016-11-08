@@ -1,12 +1,12 @@
 {
   "name": "learningKorean",
   "version": "1.0.0",
-  "description": "",
+  "description": "learningKorean for kid",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "author": "",
+  "author": "@nadir93",
   "license": "ISC",
   "dependencies": {
     "electron": "^1.4.5",
