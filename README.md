@@ -33,7 +33,7 @@ npm start
 ### key mapping
 ```
 0 ~ 9 (number) : flip card
-ㄱ ~ ㅍ (char) : init cards
+ㄱ ~ ㅎ (char) : init cards
 j : spread all cards
 k : stack all cards
 l : shuffle cards
