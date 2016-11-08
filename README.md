@@ -1,4 +1,4 @@
-# learningKorean
+# learningKorean for kid
 
 ![learningKorean](https://raw.githubusercontent.com/nadir93/learningKorean/master/images/learningkorean.png)
 
