@@ -12,15 +12,16 @@
 
 ### install
 
+```
 git clone https://github.com/nadir93/learningKorean.git
 
 cd learningKorean
 
 npm install
-
+```
 ### start
-
+```
 npm start
-
+```
 
 
