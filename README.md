@@ -24,4 +24,11 @@ npm install
 npm start
 ```
 
+### key mapping
+```
+j : spread all cards
+k : stack all cards
+l : shuffle cards
+; : exit app
+```
 
