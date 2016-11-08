@@ -40,3 +40,6 @@ l : shuffle cards
 ; : exit app
 ```
 
+### customize image
+
+
