@@ -4,7 +4,7 @@
 
 ### description
 
-*플래시카드를 이용한 한글 (통글자 말고) 낱글자 배우기*
+*플래시카드를 이용한 한글 (통글자 말고) 낱글자 배우기 (desktop application)*
 
 ### prerequisite
 
